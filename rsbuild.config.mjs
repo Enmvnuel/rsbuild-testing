@@ -10,12 +10,6 @@ export default defineConfig({
                 use: ["postcss-loader"],
                 type: "css",
             },
-            // ...
         ],
-    },
-    output: {
-        distPath: {
-            root: "dist", // Carpeta de salida
-        },
     },
 });
